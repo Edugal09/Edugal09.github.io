@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciberseguridad</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('img/binario.jpg') no-repeat center center/cover;
+            background-size: cover;
+            color: #333;
+        }
+        header {
+            background: url('img/header.jpg') no-repeat center center/cover;
+            background-size: cover;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 4em 0;
+            font-size: xx-large;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 20px;
+            background-color: white;
+            margin: 20px auto;
+            max-width: 1000px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #0a70c4;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        footer img {
+            position: sticky;
+            bottom: -4300px;
+            width: 100px;
+            height: auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        video {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .gallery img {
+            max-width: 48%;
+            margin: 1%;
+            float: left;
+        }
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fundamentos de la Ciberseguridad</h1>
+        <p>Protegiendo tu mundo digital</p>
+    </header>
+    <nav>
+        <a href="#historia">Historia</a>
+        <a href="#personas">Personas Sobresalientes</a>
+        <a href="#evolucion">Evolución</a>
+        <a href="#amenazas">Tipos de Amenazas</a>
+        <a href="#prevencion">Prevención</a>
+    </nav>
+    <main>
+        <section id="historia">
+            <h2>Historia de la Ciberseguridad</h2>
+            <p>La ciberseguridad no nació hasta que se comenzaron a conectar los equipos y a desarrollarse redes de computadora en los 50s, mientras que en los 60s la ciberseguridad comenzó a tomar la forma que conocemos hoy día.
+                <br><br>El primer hacker de la historia fue el británico Nevil Maskelyne. Mientras que el primer ciberdelincuente fue John Draper, mejor conocido como “Captain Crunch”. En los 70s, apareció el primer malware de la historia recibiendo el nombre de “Creeper”. Este no era un virus malicioso, pues fue diseñado como un experimento para ver si un programa podría moverse entre computadoras conectadas en una red. Se replicaba a sí mismo en los sistemas conectados y mostraba el mensaje: “I’M THE CREEPER: CATCH ME IF YOU CAN”. La existencia de Creeper llevó a la creación del primer antivirus, llamado “Reaper”. El antivirus fue diseñado específicamente para encontrar y eliminar el “Creeper”. Este funcionaba del mismo modo que el “Creeper”, pues se iba desplazando entre computadoras conectadas a una red, pero con el propósito de limpiarlas del virus.
+                <br><br>A lo largo de los años, la ciberseguridad ha evolucionado de manera significativa, desde los primeros experimentos en redes de computadoras en los 50s y 60s hasta la sofisticada protección que conocemos hoy
+                </p>
+        </section>
+        
+        <section id="personas">
+            <h2>Personas Sobresalientes en la Ciberseguridad</h2>
+            <p>Las figuras sobresalientes en ciberseguridad han dejado una marca indeleble en la evolución de la protección digital, desde pioneros históricos hasta innovadores contemporáneos. Sus contribuciones han moldeado y fortalecido las defensas contra las crecientes amenazas cibernéticas. Entre ellos se encuentran:</p>
+            <ul>
+                <li><strong>Nevil Maskelyne:</strong> Este siendo un ilusionista e inventor británico. Se convertiría en el primer hacker al interferir en una demostración pública del telégrafo inalámbrico de Giuliano Marconi. Asimismo, hay que tener en cuenta que al interrumpir la señal detectó una vulnerabilidad para que los inventores del telégrafo inalámbrico pudiesen tomar las medidas necesarias para proteger la información que trasmitían.</li>
+                <br><li><strong>Whitfield Diffie y Martin Hellman:</strong> Son pioneros de la criptografía moderna, conocidos por desarrollar el concepto de criptografía de clave pública en 1976. Su trabajo permitió el intercambio seguro de claves sin necesidad de una clave secreta previamente compartida. El algoritmo de Diffie-Hellman, creado por ellos, sentó las bases para la seguridad en internet y otros sistemas digitales. Su contribución revolucionaria ha tenido un impacto duradero en la protección de datos y la privacidad en la era digital.</li>
+                <br><li><strong>Bruce Schneier:</strong> Es un experto en seguridad informática y criptografía, conocido por su contribución en el diseño de algoritmos criptográficos y su defensa de la privacidad en internet. Autor prolífico y educador, ha influenciado las mejores prácticas en ciberseguridad a nivel global a través de su trabajo, consultoría y activismo.</li>
+                <br><li><strong>Kevin Mitnick:</strong> Se convirtió en uno de los hackers más famosos del mundo. Conocido por su habilidad para penetrar sistemas informáticos y redes, realizó una serie de intrusiones en sistemas corporativos y gubernamentales, lo que lo llevó a ser uno de los fugitivos más buscados por el FBI. Fue condenado a cinco años de prisión. Después de su liberación, Mitnick cambió de rumbo y se convirtió en un experto en seguridad informática, autor y consultor, ayudando a empresas y organizaciones a protegerse contra amenazas cibernéticas.</li>
+                <br><li><strong>John Draper:</strong> También conocido como “Captain Crunch”. Fue un profesor de química, filosofía natural y fisiología. Draper es principalmente conocido por su involucramiento en el "phreaking," una subcultura de apasionados de la tecnología que investigaban y aprovechaban los sistemas telefónicos para realizar llamadas sin costo y profundizar en el conocimiento sobre la red telefónica.</li>
+
+            </ul>
+            <img src="img/personas.jpg" alt="Personas Sobresalientes en la Ciberseguridad">
+        </section>
+        
+        <section id="evolucion">
+            <h2>Evolución de la Ciberseguridad</h2>
+            <p>La evolución de la ciberseguridad ha sido rápida y se ha adaptado a las crecientes amenazas y avances tecnológicos. En los años 70 y 80, la ciberseguridad comenzó con la necesidad de proteger datos en grandes sistemas centralizados, como los mainframes. Durante este tiempo, surgieron los primeros virus informáticos y se implementaron medidas básicas de protección, como contraseñas y controles de acceso.
+                <br>En los años 90, la popularización de Internet trajo consigo nuevas amenazas, como el spam y los primeros ataques de denegación de servicio (DoS). Durante esta década, se desarrollaron los primeros programas antivirus para combatir virus y malware, y la ciberseguridad comenzó a expandirse significativamente.
+                <br>Durante los años 2000, el cibercrimen se convirtió en una industria profesional, con ataques más sofisticados como el phishing y el ransomware. Fue en esta época cuando se introdujeron los firewalls y los sistemas de detección de intrusos (IDS) para proteger las redes y se profesionalizó la ciberseguridad.
+                <br>Desde 2010 hasta la actualidad, la ciberseguridad ha avanzado significativamente con la aparición de amenazas persistentes avanzadas (APT) que apuntan a datos sensibles y propiedad intelectual. El desarrollo de medidas de seguridad para proteger datos y aplicaciones en la nube se ha vuelto crucial. Además, el uso de inteligencia artificial y aprendizaje automático para detectar y responder a amenazas en tiempo real se ha vuelto común, y se han implementado regulaciones más estrictas como el GDPR para proteger la privacidad y los datos personales.
+                <br>Mirando hacia el futuro, la expansión del Internet de las cosas (IoT) y la tecnología 5G presenta nuevos desafíos de ciberseguridad. Se espera un aumento en la automatización de la ciberdefensa, con sistemas capaces de anticipar y neutralizar amenazas sin intervención humana. La ciberseguridad seguirá evolucionando para enfrentar nuevos desafíos a medida que la tecnología y las tácticas de los atacantes continúen avanzando.
+                </p>
+            
+        </section>
+        
+        <section id="amenazas">
+            <h2>Tipos de Amenazas Cibernéticas</h2>
+            <p>En el entorno digital actual, la ciberseguridad juega un papel vital en la protección contra una amplia gama de amenazas cibernéticas, entre las más comunes se encuentran:</p>
+            <ul>
+                <li><strong>Malware:</strong> Es un software malicioso diseñado para dañar, interrumpir o acceder sin autorización a sistemas informáticos. Puede robar información personal, corromper datos y causar fallos en los sistemas. Los tipos comunes de malware incluyen virus, troyanos, spyware y ransomware.</li>
+                <br><li><strong>Phishing:</strong> Es una técnica de engaño utilizada por ciberdelincuentes para obtener información confidencial, como contraseñas y datos bancarios, haciéndose pasar por entidades legítimas. Estos ataques suelen realizarse a través de correos electrónicos, mensajes de texto o sitios web falsos.</li>
+                <br><li><strong>Ataque DDoS:</strong> Es una ciberamenaza en la que múltiples sistemas comprometidos, a menudo controlados por una red de bots, envían una cantidad masiva de tráfico a un servidor o red objetivo. El objetivo es sobrecargar los recursos del sistema, causando interrupciones en el servicio o haciendo que el sistema se vuelva inaccesible para los usuarios legítimos. Estos ataques pueden afectar gravemente la disponibilidad de servicios en línea, causando pérdidas económicas y daños en su reputación.</li>
+                <br><li><strong>Spam:</strong> Es una técnica de fraude cibernético en la que los atacantes envían mensajes engañosos para robar información personal y confidencial, como contraseñas y datos bancarios. Estos mensajes, a menudo enviados por correo electrónico o redes sociales, aparentan ser de fuentes legítimas para inducir a las víctimas a hacer clic en enlaces maliciosos o descargar archivos dañinos. Los ciberdelincuentes utilizan tácticas de ingeniería social para engañar a los usuarios y obtener acceso a sus datos.</li>
+            </ul>
+            <img src="img/amenazas.jpg" alt="Tipos de Amenazas Cibernéticas" width="600" height="400"  >
+            <video width="640" height="360" controls>
+                <source src="Vid/Amenazas.mp4" type="video/mp4">
+            </video>
+        </section>
+        
+        <section id="prevencion">
+            <h2>¿Cómo Prevenir Ataques Cibernéticos?</h2>
+            <p>Para prevenir ciberataques efectivamente, es crucial implementar una combinación de medidas proactivas. Esto incluye mantener todos los sistemas y software actualizados con las últimas correcciones de seguridad y parches disponibles. Es fundamental educar a los usuarios sobre las prácticas de seguridad cibernética, como el reconocimiento de correos electrónicos de phishing y la creación de contraseñas robustas. Para prevenir ataques cibernéticos, es fundamental seguir buenas prácticas de seguridad:</p>
+            <ul>
+                <li>Usar contraseñas fuertes y únicas.</li>
+                <br><li>Mantener el software actualizado.</li>
+                <br><li>Utilizar software antivirus y antimalware.</li>
+                <br><li>Activar la autenticación de dos factores (2FA).</li>
+                <br><li>Ser cauteloso con los correos electrónicos y enlaces sospechosos.</li>
+                <br><li>Realizar copias de seguridad regulares de los datos importantes.</li>
+            </ul>
+        
+            <video width="640" height="360" controls>
+                <source src="Vid/prevencion.mp4" type="video/mp4">
+            </video>
+    
+            <h2>La ciberseguridad, tarea de todos</h2>
+            <h4>La ciberseguridad desempeña un papel crucial en la protección contra amenazas digitales cada vez más sofisticadas, como el ransomware y los ataques dirigidos (APT), que pueden comprometer datos sensibles y la continuidad operativa de sistemas críticos. <br>Mediante la implementación de medidas preventivas como firewalls robustos y sistemas de detección avanzada de intrusiones, así como la educación constante en prácticas seguras, se busca mitigar riesgos económicos y preservar la confianza pública y la reputación corporativa. La colaboración intersectorial y la innovación en tecnologías emergentes, como la inteligencia artificial, son fundamentales para adaptarse eficazmente a los desafíos cambiantes del ciberespacio y garantizar la seguridad de la información en la era digital.</h4>
+            <video width="640" height="360" controls>
+                <source src="Vid/2.mp4" type="video/mp4">
+            </video>
+
+    </main>
+    <footer>
+        <img src="img/utp.jpg" alt="Left Image" class="left-footer-img" width="200" height="200" >
+        <img src="img/fisc.png" alt="Right Image" class="right-footer-img" width="200" height="200">
+        <p>Universidad Tecnológica de Panamá <br>Facultad de Ingeniería de Sistemas Computacionales</p>
+        <p>&copy; 2024 Eduardo Gallardo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+
+
